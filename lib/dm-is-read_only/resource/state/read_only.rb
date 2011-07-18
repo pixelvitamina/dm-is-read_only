@@ -16,10 +16,12 @@ module DataMapper
         #
         # @since 0.2.0
         #
-        def set(subject,value)
-          raise(ReadOnlyError,"ReadOnly resource cannot be modified",caller)
-        end
-
+        
+        
+        #def set(subject,value)
+        #  raise(ReadOnlyError,"ReadOnly resource cannot be modified",caller)
+        #end
+        
         #
         # Receives deletion attempts on a read-only resource.
         #
